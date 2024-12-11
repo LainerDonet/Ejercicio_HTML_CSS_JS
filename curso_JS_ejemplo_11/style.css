@@ -50,11 +50,12 @@ body{
 }
 
 .container.active .button{
-    transform: translateY(198px);
+    transform: translateX(198px);
     background-color: royalblue;
 }
+
 .button.active{
-    margin-left: 1.5rem;
+    margin-left: 0.5rem;
 }
 
 .fa-times{
