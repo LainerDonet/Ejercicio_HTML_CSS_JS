@@ -15,9 +15,10 @@ fetch('data.json')
 
         // Crear celdas para nombre, edad y sexo
         fila.innerHTML = `
-            <td>${persona.nombre}</td>
-            <td>${persona.edad}</td>
-            <td>${persona.sexo}</td>
+            <td>${persona.usuario}</td>
+            <td>${persona.uid}</td>
+            <td>${persona.fecha_creacion}</td>
+            <td>${persona.ultimo_inicio}</td>
         `;
         
         // Agregar la fila al cuerpo de la tabla

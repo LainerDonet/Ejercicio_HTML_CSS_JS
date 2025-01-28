@@ -1,27 +1,28 @@
 [
     {
-        "nombre": "Juan",
-        "edad": 25,
-        "sexo": "Masculino"
+      "usuario": "nobody",
+      "uid": 65534,
+      "fecha_creacion": "Desconocida",
+      "ultimo_inicio": "accedido**   "
     },
     {
-        "nombre": "María",
-        "edad": 30,
-        "sexo": "Femenino"
+      "usuario": "user",
+      "uid": 1000,
+      "fecha_creacion": "Desconocida",
+      "ultimo_inicio": "::ffff:192.158.1 mar ene 28"
     },
     {
-        "nombre": "Carlos",
-        "edad": 28,
-        "sexo": "Masculino"
-    },
-    {
-        "nombre": "Manolo",
-        "edad": 38,
-        "sexo": "Masculino"
-    },
-    {
-        "nombre": "Jimena",
-        "edad": 18,
-        "sexo": "Femenino"
-    }
-]
+        "usuario": "araceli",
+        "uid": 1001,
+        "fecha_creacion": "Desconocida",
+        "ultimo_inicio": "::ffff:192.158.1 mié sep 18"
+      },
+      {
+        "usuario": "suport",
+        "uid": 1002,
+        "fecha_creacion": "Desconocida",
+        "ultimo_inicio": "accedido**   "
+      }
+    ]
+    
+    
