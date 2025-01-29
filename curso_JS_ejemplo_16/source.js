@@ -7,6 +7,13 @@ fetch('data.json')
     return response.json();
 })
 .then(data => {
+    // Modificar todas las fechas de creación en los objetos
+    data.forEach(obj => {
+        if (obj.fecha_creacion) {
+            obj.fecha_creacion = obj.fecha_creacion.replace(/\.\d+ .*/, "");
+        }
+    });
+
     const tablaBody = document.querySelector('#tabla tbody');
     
     // Iterar sobre los datos y construir las filas

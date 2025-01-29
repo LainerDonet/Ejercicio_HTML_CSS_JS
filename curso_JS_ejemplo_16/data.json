@@ -1,29 +1,29 @@
 [
-    {
-        "usuario": "nobody",
-        "uid": 65534,
-        "fecha_creacion": "Desconocida",
-        "ultimo_inicio": "  "
-    },
-    {
-        "usuario": "user",
-        "uid": 1000,
-        "fecha_creacion": "Desconocida",
-        "ultimo_inicio": "mar ene 28"
-    },
-    {
-        "usuario": "araceli",
-        "uid": 1001,
-        "fecha_creacion": "Desconocida",
-        "ultimo_inicio": "mié sep 18"
-      },
-      {
-        "usuario": "suport",
-        "uid": 1002,
-        "fecha_creacion": "Desconocida",
-        "ultimo_inicio": "  "
-      }
-    ]
+  {
+    "usuario": "nobody",
+    "uid": 65534,
+    "fecha_creacion": "2024-08-12 12:17:16.991660000 -0600",
+    "ultimo_inicio": "accedido**   "
+  },
+  {
+    "usuario": "user",
+    "uid": 1000,
+    "fecha_creacion": "2024-08-12 12:25:41.405000000 -0600",
+    "ultimo_inicio": "mié ene 29 10:46:42"
+  },
+  {
+    "usuario": "araceli",
+    "uid": 1001,
+    "fecha_creacion": "2024-09-17 17:52:13.955957485 -0600",
+    "ultimo_inicio": "::ffff:192.158.1 mié sep 18"
+  },
+  {
+    "usuario": "suport",
+    "uid": 1002,
+    "fecha_creacion": "2024-12-10 11:54:20.972060623 -0600",
+    "ultimo_inicio": "accedido**   "
+  }
+]
     
     
     
