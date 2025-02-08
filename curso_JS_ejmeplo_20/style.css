@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #111;
+    margin: 0;
+    flex-direction: column;
+    gap: 20px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0;
+}
+main h1 {
+    font-size: 2.5em;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+main p {
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+.social-icons {
+    display: flex;
+    gap: 30px;
+}
+.icon {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    position: relative;
+    transition: all 0.3s;
+    font-size: 35px;
+    background: #000;
+    text-decoration: none;
+    color: #fff;
+}
+.icon i {
+    animation: randomNeonColors 8s infinite;
+}
+@keyframes randomNeonColors {
+    0%, 100% {
+    filter: drop-shadow(0 0 8px #00ffff)
+            drop-shadow(0 0 12px #00ffff)
+            brightness(1.5);
+    }
+    20% {
+    filter: drop-shadow(0 0 8px #ff00ff)
+            drop-shadow(0 0 12px #ff00ff)
+            brightness(1.5);
+    }
+    40% {
+    filter: drop-shadow(0 0 8px #ffff00)
+            drop-shadow(0 0 12px #ffff00)
+            brightness(1.5);
+    }
+    60% {
+    filter: drop-shadow(0 0 8px #00ff00)
+            drop-shadow(0 0 12px #00ff00)
+            brightness(1.5);
+    }
+    80% {
+    filter: drop-shadow(0 0 8px #ff3300)
+            drop-shadow(0 0 12px #ff3300)
+            brightness(1.5);
+    }
+}
+    /* Offset animations for each icon */
+.apple i {
+    animation-delay: 0s;
+}
+.twitter i {
+    animation-delay: -2s;
+}
+.github i {
+    animation-delay: -4s;
+}
+.facebook i {
+    animation-delay: -6s;
+}
+.icon:hover {
+    transform: translateY(-5px);
+}
+.icon:hover i {
+    filter: brightness(2);
+}
